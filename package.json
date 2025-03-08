@@ -1,0 +1,43 @@
+{
+  "name": "web-piano",
+  "version": "1.0.0",
+  "description": "网页钢琴项目",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.web.piano",
+    "productName": "网页钢琴",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "img/title.ico"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ansi-styles": "^4.3.0",
+    "builder-util": "^22.14.13",
+    "builder-util-runtime": "^8.9.2",
+    "chalk": "^4.1.2",
+    "cross-spawn": "^7.0.6",
+    "electron": "^13.6.9",
+    "electron-builder": "^22.14.13",
+    "has-flag": "^4.0.0",
+    "supports-color": "^7.2.0",
+    "which": "^5.0.0"
+  },
+  "dependencies": {
+    "app-builder-bin": "^4.2.0",
+    "builder-util": "^25.1.7",
+    "builder-util-runtime": "^9.2.10",
+    "chalk": "^5.4.1",
+    "electron-builder": "^25.1.8",
+    "sax": "^1.4.1"
+  }
+}
