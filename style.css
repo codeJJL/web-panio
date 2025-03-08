@@ -28,11 +28,21 @@ body{
 #yinyan{
     margin-top: 25vh;
     display: flex;
+    flex-direction: column; /* 改为纵向排列 */
     justify-content: center;
     align-items: center;
     transition:opacity  1s;
+    margin: 0 auto;
 }
 
+/* 添加chunfeng的样式 */
+#chunfeng {
+    color: rgba(27, 23, 23,0.9);
+    text-align: center;
+    margin-bottom: 50px; /* 添加底部间距，与播放按钮分开 */
+    width: 80%; /* 控制宽度 */
+    max-width: 1200px; /* 最大宽度 */
+}
 
 .btn1::before{
     top:62.5%;
